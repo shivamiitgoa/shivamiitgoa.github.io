@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 */
+
 body {
 	background-color: #3F51B5 ;
 }
@@ -30,7 +31,7 @@ body {
 }
 .head_name{
 	width: calc(100% - 200px);
-	font-size: 450%;
+	font-size: 350%;
 	vertical-align: middle;
 	text-align: center;
 }
@@ -68,6 +69,16 @@ body {
 	padding-right: 20px;
 	font-size: 150%;
 	text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+	.head_name{
+		font-size: 250%;
+	}
+}
+@media only screen and (max-width: 750px) {
+	.head_name{
+		font-size: 150%;
+	}
 }
 .footer{
 	text-align: center;
