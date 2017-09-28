@@ -1,15 +1,14 @@
-/** {
+/*
+* {
    outline: 1px solid red !important;
 }
-
+*/
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
-*/
-
 body {
 	background-color: #3F51B5 ;
 }
@@ -63,7 +62,9 @@ body {
 	margin-bottom: 20px;
 }
 .large_image{
-	width: 60%;
+	width: 600px;
+    height: 400px;
+    overflow: hidden;
 }
 .middle_description{
 	width: 40%;
