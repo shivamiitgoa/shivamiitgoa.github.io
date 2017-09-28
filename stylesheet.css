@@ -14,7 +14,8 @@ body {
 	background-color: #3F51B5 ;
 }
 .whole{
-	width: 100%;
+	width: 1000px;
+	margin: auto;
 }
 .heading{
 	width: 100%;
@@ -51,7 +52,7 @@ body {
 	line-height: 50px;
 	padding-left: 10px;
 	padding-right: 10px;
-	font-size: 200%;
+	font-size: 150%;
 	text-align: center;
 }
 .middle_part{
@@ -66,10 +67,11 @@ body {
 }
 .middle_description{
 	width: 40%;
-	padding-right: 20px;
+	/*padding-right: 20px;*/
 	font-size: 150%;
 	text-align: center;
 }
+/*
 @media only screen and (max-width: 1000px) {
 	.head_name{
 		font-size: 250%;
@@ -80,6 +82,9 @@ body {
 		font-size: 150%;
 	}
 }
+*/
 .footer{
 	text-align: center;
+	background-color: #7986CB;
+	width: 100%;
 }
