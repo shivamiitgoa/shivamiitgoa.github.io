@@ -1,51 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <link rel="shortcut icon" href="logo.png" type="image/png">
-  <title>IIT GOA INTERNSHIP SHELL</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
-<body>
-
-<div class = "whole">
-
-  <div class = "heading">
-    <div class="head_icon">
-      <img src="logo.png" alt="IIT GOA" height="100%">
-    </div>
-    <div class="head_name">
-      IIT GOA INTERNSHIP SHELL
-    </div>
-  </div>
-
-  <div class="options">
-    <div class="sub_options">
-      <a href="google.com">About</a>
-    </div>
-    <div class="sub_options">
-      <a href="google.com">Procedure</a>
-    </div>
-    <div class="sub_options">
-      <a href="google.com">Ongoing Programs</a>
-    </div>
-    <div class="sub_options">
-      <a href="google.com">Apply Online</a>
-    </div>
-  </div>
-
-  <div class="middle_part">
-    <div class="large_image">
-      <img src="first.jpg" alt="Inaguration of College" width="100%">
-    </div>
-    <div class="middle_description">
-      Indian Institute of Technology Goa (IIT Goa) is an autonomous premier engineering and technology university located in Goa. The new Indian Institute of Technology (IIT) at Goa would start functioning from July, 2016 in a temporary campus housed at Goa Engineering College (GEC) Campus located at Farmagudi, Goa. For the academic year 2016-2017, it will offer B.Tech courses in three core branches namely Electrical, Computer Science and Mechanical.
-    </div>
-  </div>
-  <div class="footer">
-    <a href="google.com">Contact Us</a>
-  </div>
-</div>
-
-</body>
-</html>
+/*
+* {
+   outline: 1px solid red !important;
+}
+*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+	background-color: #3F51B5 ;
+}
+.whole{
+	width: 1000px;
+	margin: auto;
+}
+.heading{
+	width: 100%;
+	height: 200px;
+	line-height: 200px;
+	display:flex;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #7986CB;
+}
+.head_icon{
+	width: 200px;
+	height: 200px;
+}
+.head_name{
+	width: calc(100% - 200px);
+	font-size: 350%;
+	vertical-align: middle;
+	text-align: center;
+}
+.options{
+	width: 100%;
+	height: 50px;
+	display:flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #7986CB;
+}
+.sub_options{
+	width: 25%;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 150%;
+	text-align: center;
+}
+.middle_part{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	background-color: #7986CB;
+	margin-bottom: 20px;
+}
+.large_image{
+	width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+.middle_description{
+	width: 40%;
+	/*padding-right: 20px;*/
+	font-size: 150%;
+	text-align: center;
+}
+/*
+@media only screen and (max-width: 1000px) {
+	.head_name{
+		font-size: 250%;
+	}
+}
+@media only screen and (max-width: 750px) {
+	.head_name{
+		font-size: 150%;
+	}
+}
+*/
+.footer{
+	text-align: center;
+	background-color: #7986CB;
+	width: 100%;
+}
