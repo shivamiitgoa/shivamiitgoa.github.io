@@ -47,6 +47,7 @@ body {
 .members_area{
 	width: 35%;
 	font-family: 'Montserrat', sans-serif;
+	word-wrap: break-word;
 }
 .each_member{
 	width: 100%;
