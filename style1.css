@@ -58,8 +58,9 @@ body {
 	height: 100px;
 }
 .member_details{
+	font-size: 16px;
 	padding: 5px;
-	width: 200px;
+	width: calc(100% - 100px);
 	height: 100px;
 }
 .objectives_area{
