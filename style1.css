@@ -47,7 +47,7 @@ body {
 .members_area{
 	width: 35%;
 	font-family: 'Montserrat', sans-serif;
-	word-wrap: break-word;
+	text-overflow: ellipsis;
 }
 .each_member{
 	width: 100%;
@@ -74,5 +74,5 @@ body {
 	font-family: 'Roboto Slab', serif;
 }
 .objective li{
-	font-size: 24px;
+	font-size: 18px;
 }
