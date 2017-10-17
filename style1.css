@@ -45,7 +45,7 @@ body {
 	background-color: #7986CB;
 }
 .members_area{
-	width: 35%;
+	width: 40%;
 	font-family: 'Montserrat', sans-serif;
 	text-overflow: ellipsis;
 }
@@ -67,10 +67,9 @@ body {
 	height: 100px;
 }
 .objectives_area{
-	width: 65%;
+	width: 60%;
 	border-left: 5px solid #3F51B5;
 	padding: 20px;
-	text-align: justify;
 	font-family: 'Roboto Slab', serif;
 }
 .objective li{
