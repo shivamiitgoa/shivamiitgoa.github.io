@@ -16,7 +16,10 @@
 
   <body>
     <nav class="navbar navbar-expand-md fixed-top bg-light justify-content-center">
-        <a class="navbar-brand h1" href="#">ML Circle</a>
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="images/logo/ml-circle.svg" alt="ml-circle" style="height:40px;">
+        </a>
         <div class="navbar-collapse collapse w-100">
             <ul class="navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item">
@@ -33,10 +36,24 @@
         </div>
     </nav>
 
+    
+
     <main role="main" class="container-fluid">
       <div class="jumbotron">
+
+        <img class="img-fluid mb-5 d-block mx-auto" src="images/logo/ml-circle.svg" alt="">
+        <!-- Header -->
+        <header class="masthead bg-primary text-black text-center">
+            <div class="container">
+              <img class="img-fluid mb-5 d-block mx-auto" src="images/logo/ml-circle.svg" alt="">
+              <h1 class="mb-0">ML Circle</h1>
+              <hr class="star-light">
+              <h2 class="font-weight-light mb-0">Computer Science Student - Machine Learning Intern </h2>
+            </div>
+          </header>
+
         <h2 class="display-4">
-        	CS 344/386: Artificial Intelligence
+        	ML Circle
         </h2>
         <h3 class="font-weight-light"> — <em>Fall 2018</em></h3>
         <p>
@@ -121,19 +138,10 @@
         </p>
       </div>
 
-      <!--h2>Announcements</h2-->
-      <div class="alert alert-primary" role="alert">
-        This page will serve as the primary resource hub for CS 344 (Artificial Intelligence) and CS 386 (Artificial Intelligence Lab). 
-      </div>
-      <!--div class="alert alert-primary" role="alert">
-        Welcome to AI! See you all there. 
-      </div-->
-
         <h2>
-            <a name="schedule"></a>
-            Course Schedule
+            <a name="meetings"></a>
+            Meetings
         </h2>
-        <p>This is a tentative course schedule. It will be updated <i>often</i>.</p>
 
         <table class="table table-hover table-responsive">
           <thead>
@@ -141,7 +149,7 @@
               <th scope="col">#</th>
               <th scope="col">Date</th>
               <th scope="col">Topic</th>
-              <th scope="col">Materials*</th>
+              <th scope="col">Abstract</th>
             </tr>
           </thead>
           <tbody>
@@ -427,235 +435,6 @@
             </tr>
           </tbody>
 
-        </table>
-        <footer class="blockquote-footer"> 
-          * Some materials are taken from <a href="http://ai.berkeley.edu/home.html" target="_blank">Dan Klein and Pieter Abbeel (UC Berkeley)</a>, Tuomas Sandholm (CMU). 
-          Log on to <a href="https://classroom.google.com/u/0/c/MTQ4ODc0MDYyMTZa" target="_blank">classroom</a> to see lecture slides 
-        </footer>
-        <br/>
-        <h2>
-            <a name="seminars"></a>
-            Student Seminars 
-        </h2>
-        <table class="table table-hover table-responsive">
-          <thead>
-            <tr>
-              <th scope="col">Team</th>
-              <th scope="col">Date</th>
-              <th scope="col">Title</th>
-              <th scope="col">Materials</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>September 19</td>
-              <td>
-                <b>Transforming a standard video into slow motion using AI</b> <br/> Apurv Varshney, Piyush Doke, and Rohan Teja
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-1-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="cs344-386-fall-2018\seminar-team-1-slides.pdf" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">5</th>
-              <td>September 28</td>
-              <td>
-                <b>Content-based image retrieval</b> <br/> Shivangi Sharma, Siddharth Singh, and Shreyash Tripathi
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-5-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>September 28</td>
-              <td>
-                <b>Google's AI camera: An approach to computational photography</b> 
-                <br/>
-                Ashish Ekka, Prashant Kote, and Neha Shah
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-4-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>October 3</td>
-              <td>
-                <b>Google’s online handwriting recognition and quick draw</b> <br/> Abhishek Varghese, Gaurav Aidasani, and Nitish Shah
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-3-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">9</th>
-              <td>October 3</td>
-              <td>
-                <b>Making life Leazy with AI</b> <br/> Abhisar Kushwah, Gaurav Ganna, and Vikas Bansal 
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-9-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">6</th>
-              <td>October 3</td>
-              <td>
-                <b>Face recognition using machine learning</b> <br/> Manika Khare, Pankaj Katkar, and Shivam Kumar
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-6-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>October 5</td>
-              <td>
-                <b>Computer Vision</b> <br/> Sandesh Maurya, Sanjeev Ranjan, and Gaurav Dahiya
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-2-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">11</th>
-              <td>October 5</td>
-              <td>
-                <b>Home Automation System</b> <br/> Shivam Pandey, Tanmay Maheshwari, and Himali Goel
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-11-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">7</th>
-              <td>October 5</td>
-              <td>
-                <b>AI in Games</b> <br/> Vishal Jha, Ishan Singhal, and Shuvham Kumar 
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-7-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">10</th>
-              <td>October 8</td>
-              <td>
-                <b>Speech Recognition</b> <br/> Avya Bansal, Pratyay Gaikwad, and Srinivas Thammana  
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-10-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="#" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">8</th>
-              <td>October 10</td>
-              <td>
-                <b>AI in Health Care</b> <br/> Shikha Verma, Aman Kumar, and Vaishnav Tammadwar
-              </td>
-              <td>
-                <a href="cs344-386-fall-2018\seminar-team-8-abstract.pdf" target="_blank" class="badge badge-primary">abstract</a>
-                <a href="cs344-386-fall-2018\seminar-team-8-slides.pdf" target="_blank" class="badge badge-secondary">slides</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <br/>
-        <h2>
-            <a name="homeworks"></a>
-            Homeworks
-        </h2>
-        <table class="table table-hover table-responsive">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Due Date</th>
-              <th scope="col">Homework</th>
-              <th scope="col">Graded?</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>September 26</td>
-              <td>
-                Homework 1 
-              </td>
-              <td>No</td>
-            </tr>
-          </tbody>
-        </table>
-
-        <br/>
-        <h2>
-            <a name="labs"></a>
-            Labs
-        </h2>
-       
-        
-
-        <table class="table table-hover table-responsive">
-          <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Week</th>
-              <th scope="col">Topics/Projects</th>
-              <th scope="col">Due Date</th>
-              <th scope="col">Resources</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>July 27</td>
-              <td>
-                Project 0 
-              </td>
-              <td>August 03</td>
-              <td>
-                <ul>
-                      <li>Python tutorial: https://docs.python.org/3/tutorial</li>
-                      <li>PEP 8 -- Style Guide for Python Code: https://www.python.org/dev/peps/pep-0008</li>
-                      <li>https://www.learnpython.org</li>
-                      <li>http://ai.berkeley.edu/tutorial.html</li>
-                </ul>                
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">2</th>
-              <td>August 3</td>
-              <td>Project 1</td>
-              <td>August 10</td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">3</th>
-              <td>August 17</td>
-              <td>Project 2</td>
-              <td>August 31</td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">4</th>
-              <td>September 28</td>
-              <td>Project 3</td>
-              <td>October 12 (Part I) & 26 (Part II)</td>
-              <td></td>
-            </tr>
-          </tbody>
         </table>
     </main>
     <br/>
