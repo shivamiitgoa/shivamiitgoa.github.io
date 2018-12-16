@@ -12,6 +12,9 @@
     <!-- Bootstrap core CSS -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- JS Code -->
+    <script src="./js/main.js"></script>
+
   </head>
 
   <body>
@@ -110,12 +113,27 @@
                         <img src="images/people/undergraduates/shivam.kumar.16001@iitgoa.ac.in.jpeg" class="rounded-circle z-depth-2" width="200" height="200">
                     </div>
                     <h2 style="margin-top:10px">Shivam Kumar</h2>
-                    <p><a class="btn btn-primary" href="https://www.linkedin.com/in/shivamkumar7/" role="button">View profile »</a></p>
+                    <p><a class="btn btn-primary" id="shivam_kumar_profile_link" role="button">View profile »</a></p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="m-2 p-2">
+                    <div class="avatar mx-auto">
+                        <img src="images/people/undergraduates/shivam.pandey.16001@iitgoa.ac.in.jpeg" class="rounded-circle z-depth-2" width="200" height="200">
+                    </div>
+                    <h2 style="margin-top:10px">Shivam Pandey</h2>
+                    <p><a class="btn btn-primary" id="shivam_pandey_profile_link" role="button">View profile »</a></p>
                 </div>
             </div>
         </div>
         </div>
     </div>
+
+    <!-- JS Code to set profile links -->
+    <script>
+        document.getElementById('shivam_kumar_profile_link').setAttribute('href',shivam_kumar_profile_link);
+        document.getElementById('shivam_pandey_profile_link').setAttribute('href',shivam_pandey_profile_link);
+    </script>
 
     <hr>
 
