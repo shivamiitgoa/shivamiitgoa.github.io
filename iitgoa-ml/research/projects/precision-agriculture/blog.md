@@ -7,11 +7,11 @@
 
 ## Introduction  
 
-India is the second largest country having a population of about 1.32 Billion. Agriculture is the main resource and a large proportion of citizens are dependent on agriculture. We can solve several problems in India in the field of Agriculture (production/cultivation) , which could benefit the humankind. (This last sentence needs to explained. It's ambiguous)
+India is the second largest country having a population of about 1.32 Billion. Agriculture is the main resource and a large proportion of citizens are dependent on agriculture. We can solve several problems in India in the field of Agriculture (production/cultivation) , which could benefit the humankind.
 
-Our goal in this research project would be to study a lot of datasets available on India and its agriculture in its states and bring out correlations between *crop production*(crop yield x area sown) of several crops like rice, wheat, bajra, cotton, etc. depending on geographical factors such as temperatue, average annual rainfall, fertilizers, net area sown, area under irrigation, etc. and other factors such as economic, political and social factors.
+Our goal in this research project would be to study a lot of datasets available on India and its agriculture in its states and bring out correlations between *crop production*(crop yield x area sown) of several crops like rice, wheat, bajra, cotton, etc. depending on geographical factors such as temperature, average annual rainfall, fertilizers, net area sown, area under irrigation, etc. and other factors such as economic, political and social factors.
 
-This will surely help us to predict the future crop yields taking into consideration the past trends observed from the datasets via EDA (*Exploratory Data Analysis*). Also, we can contribute to the nation with much more planned and organized agriculture techniques and promote modern techonologies in India for *sustainable agriculture*.
+This will surely help us to predict the future crop yields taking into consideration the past trends observed from the datasets via EDA (*Exploratory Data Analysis*). Also, we can contribute to the nation with much more planned and organized agriculture techniques and promote modern technologies in India for *sustainable agriculture*.
 
 ## Datasets and Exploratory Data Analysis 
 
@@ -22,9 +22,9 @@ We selected one crop in a particular state each, and worked upon the correspondi
 Following is the matrix plot on "Rice Agriculture" in Bihar :-
 <a><img src="./Plots/All Bihar Data Plot.png" width="100%"/></a>
 
-After Exploratory Data Analysis, we didn't find anything intersting from the matrix plot, since we had a sporadic dataset after taking intersection of all the predictors.
+After Exploratory Data Analysis, we didn't find anything interesting from the matrix plot, since we had a sporadic dataset after taking intersection of all the predictors.
 
-We also looked at the "Wheat" crop in Punjab. But, here also, we couldn't find any interesting correlations between the predictors and reponse variables. Following is the matrix plot for Wheat crop in Punjab :-
+We also looked at the "Wheat" crop in Punjab. But, here also, we couldn't find any interesting correlations between the predictors and response variables. Following is the matrix plot for Wheat crop in Punjab :-
 <a><img src="./Dataset/Wheat_Punjab/Plot_wheat/Matrix plot Punjab.png" width="100%"/></a>
 
 However, we could see that usually, factors such as "Year" and "Temperature" led to increment in the crop production(or yield).
@@ -38,7 +38,7 @@ The final CSV file was obtained after taking the intersection of all independent
 ## Experiments and Discussion
 Upon exploratory data analysis and data visualization, we were able to find out what are exactly the geographical factors which have been affecting the crop yield over the past decades/centuries throughout different regions/states of India. EDA helped us to know what factors affected which crops more and which crops less. The *major problem* faced due to which an accurate linear model couldn’t be made was not getting enough datasets. We got very a sporadic dataset after taking intersection of all predictors. Being the data points so less, we were unable to make a good linear model.
 
-Here is one of the Linear Model for Wheat in Punjab created by R's lm() funciton after Normalization of data :-
+Here is one of the Linear Model for Wheat in Punjab created by R's lm() function after Normalization of data :-
 
 <table>
   <tr>
