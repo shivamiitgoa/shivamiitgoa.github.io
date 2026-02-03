@@ -1,423 +1,305 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Shivam Kumar</title>
+    <meta name="description" content="Shivam Kumar — Full‑stack engineer (Python/TypeScript/Rust). Building modern products with clean UX and strong engineering." />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <meta property="og:title" content="Shivam Kumar" />
+    <meta property="og:description" content="Full‑stack engineer (Python/TypeScript/Rust)." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shivamiitgoa.github.io/" />
 
-    <!-- Custom fonts for this template -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i"
-      rel="stylesheet"
-    />
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
+    <link rel="preload" href="css/site.css" as="style" />
+    <link rel="stylesheet" href="css/site.css" />
 
-    <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet" />
+    <link rel="icon" href="img/profile.jpg" />
   </head>
 
-  <body id="page-top">
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-      id="sideNav"
-    >
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Shivam Kumar</span>
-        <span class="d-none d-lg-block">
-          <img
-            class="img-fluid img-profile rounded-circle mx-auto mb-2"
-            src="img/profile.jpg"
-            alt=""
-          />
-        </span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience"
-              >Experience</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#education"
-              >Education</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests"
-              >Interests</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-        </ul>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-name">Shivam Kumar</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-btn" data-action="theme" aria-label="Toggle dark mode" title="Toggle theme">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 18a6 6 0 1 1 0-12 6 6 0 0 1 0 12Z" stroke="currentColor" stroke-width="1.7" />
+              <path d="M12 2v2.5M12 19.5V22M22 12h-2.5M4.5 12H2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+              <path d="M19.78 4.22 18 6M6 18l-1.78 1.78M19.78 19.78 18 18M6 6 4.22 4.22" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+            </svg>
+          </button>
+
+          <button class="icon-btn burger" data-action="menu" aria-label="Open menu" aria-expanded="false" title="Menu">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
       </div>
-    </nav>
 
-    <div class="container-fluid p-0">
-      <section
-        class="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="about"
-      >
-        <div class="w-100">
-          <h1 class="mb-0">
-            Shivam
-            <span class="text-primary">Kumar</span>
-          </h1>
-          <div class="subheading mb-5">
-            Gurugram, India 122006 ·
-            <a href="mailto:shivam7@outlook.in">shivam7@outlook.in</a>
-          </div>
-          <p class="lead mb-5">Full-Stack Developer</p>
-          <div class="social-icons">
-            <a href="https://www.linkedin.com/in/shivamkumar7/">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/shivamiitgoa">
-              <i class="fab fa-github"></i>
-            </a>
-            <!-- <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a> -->
-          </div>
+      <div class="mobile-panel" data-mobile-panel data-open="false" aria-label="Mobile navigation">
+        <div class="container">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Contact</a>
         </div>
-      </section>
+      </div>
+    </header>
 
-      <hr class="m-0" />
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="container hero-grid">
+          <div>
+            <div class="kicker">Personal brand</div>
+            <h1 class="h1">Engineer who cares about clean UX and solid systems.</h1>
+            <p class="lead">
+              I’m Shivam Kumar — a full‑stack developer with experience across web apps, ML tooling, and blockchain.
+              I like shipping polished products that feel effortless on every device.
+            </p>
 
-      <section
-        class="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="experience"
-      >
-        <div class="w-100">
-          <h2 class="mb-5">Experience</h2>
-
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Full Stack Developer (Contract)</h3>
-              <div class="subheading mb-3">Hawksight, Singapore</div>
-              <p>
-                Built the NFT Staking App and Raffle App on the FTX-backed
-                Solana Blockchain
-              </p>
-              <p>
-                Used Rust as the backend language to develop smart contracts
-                required for the app
-              </p>
-              <p>
-                Used React and Typescript to develop the frontend of the app
-              </p>
+            <div class="cta-row">
+              <a class="btn primary" href="#contact">Get in touch</a>
+              <a class="btn subtle" href="https://github.com/shivamiitgoa" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn subtle" href="https://www.linkedin.com/in/shivamkumar7/" target="_blank" rel="noreferrer">LinkedIn</a>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May 2022 - Present</span>
+
+            <div class="pills" aria-label="Highlights">
+              <span class="pill"><span class="pill-dot" aria-hidden="true"></span> Full‑stack (Python/TS/Rust)</span>
+              <span class="pill"><span class="pill-dot" aria-hidden="true" style="background: var(--accent2)"></span> ML + CV (PyTorch/OpenCV)</span>
+              <span class="pill"><span class="pill-dot" aria-hidden="true" style="background: #bf5af2"></span> Shipping mindset</span>
             </div>
           </div>
 
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Software Engineer I</h3>
-              <div class="subheading mb-3">EagleView, Bengaluru, India</div>
-              <p>
-                Worked closely with other data scientists to improve the machine
-                learning model. We later filed a patent as well for the
-                invention we made.
-              </p>
-              <p>
-                Automated the alignment part of the workflow to create Solar
-                report. I was able to reduce the human workload on that step by
-                80%. I used computer vision and machine learning for it.
-              </p>
-              <p>Used OpenCV, PyTorch, and Python extensively in my work</p>
-              <p>
-                Created the data generation pipeline to create a large imagery
-                dataset required to train machine learning models
-              </p>
+          <aside class="card card-pad profile" aria-label="Profile">
+            <div class="avatar">
+              <img src="img/profile.jpg" alt="Portrait of Shivam Kumar" />
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Mar 2021 - April 2022</span>
-            </div>
-          </div>
 
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">AI Engineer</h3>
-              <div class="subheading mb-3">
-                Learngram Technology India, Bengaluru, India
+            <div class="profile-meta">
+              <div class="meta-row">
+                <div class="meta-title">Shivam Kumar</div>
+                <div class="meta-sub">Gurugram, India</div>
               </div>
-              <p>
-                Primarily worked on the NLP technology in machine learning and
-                learned how to manage a large codebase
-              </p>
-              <p>
-                Designed, developed, and deployed a file management system, like
-                Microsoft OneDrive, for Learngram to manage files of various
-                products
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Apr 2020 - Mar 2021</span>
-            </div>
-          </div>
-
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Research Assistant</h3>
-              <div class="subheading mb-3">
-                Supervisor - Prof. Thambipillai Srikanthan, NTU, Singapore
+              <div class="meta-row">
+                <div class="meta-sub">Full‑Stack Developer</div>
+                <a class="meta-sub" href="mailto:shivam7@outlook.in">shivam7@outlook.in</a>
               </div>
-              <p>
-                Devised a novel method to automate the detection of open source
-                vulnerabilities in binary files.
-              </p>
-              <p>
-                Proposed methods for the efficient extraction of unique features
-                inherent in both source code and binary files.
-              </p>
-              <p>
-                Deployed machine learning and hierarchical filtering techniques
-                using these unique features to get a prima facie evidence of
-                vulnerabilities. In addition, hashing algorithms and subgraph
-                isomorphism were employed to confirm their presence.
-              </p>
-              <p>
-                Proposed a novel efficient technique for vulnerability detection
-                using neighborhood aggregated locality sensitive hashing.
-              </p>
-              <p>
-                Achieved around 60% accuracy in detecting the presence of
-                vulnerable library versions in binary packages. Integrated the
-                algorithm into the engine to achieve over 90% accuracy in the
-                detection of vulnerable libraries used in binary packages.
-              </p>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">May - Dec 2019</span>
-            </div>
-          </div>
+          </aside>
         </div>
       </section>
 
-      <hr class="m-0" />
+      <section class="section" id="about">
+        <div class="container">
+          <h2 class="section-title">About</h2>
+          <p class="section-sub">
+            I build modern web products end‑to‑end — from clean UI and frontend architecture to backend systems,
+            data pipelines, and deployment. I’ve worked across startups and research environments and enjoy turning
+            messy problems into simple interfaces.
+          </p>
 
-      <section
-        class="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="education"
-      >
-        <div class="w-100">
-          <h2 class="mb-5">Education</h2>
-
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Indian Institute of Technology Goa, India</h3>
-              <div class="subheading mb-3">Bachelor of Technology</div>
-              <div>Computer Science and Engineering</div>
-              <p>GPA: 9.22/10.0</p>
+          <div class="grid-2">
+            <div class="item">
+              <h3>What I’m good at</h3>
+              <p>
+                Product‑quality engineering, rapid iteration, and simplifying complexity. I care about performance,
+                accessibility, and code that stays readable a year later.
+              </p>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">2016 - 2020</span>
+            <div class="item">
+              <h3>What I’m building</h3>
+              <p>
+                Projects that sit at the intersection of developer experience and real‑world automation — with a bias
+                towards delightful UX and measurable impact.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <hr class="m-0" />
+      <section class="section" id="experience">
+        <div class="container">
+          <h2 class="section-title">Experience</h2>
+          <p class="section-sub">A quick timeline of roles and highlights.</p>
 
-      <section
-        class="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="skills"
-      >
-        <div class="w-100">
-          <h2 class="mb-5">Skills</h2>
+          <div class="timeline">
+            <div class="item">
+              <h3>Full Stack Developer (Contract) · Hawksight (Singapore)</h3>
+              <div class="meta">May 2022 – Present</div>
+              <p>
+                Built an NFT Staking App and Raffle App on Solana. Developed smart contracts in Rust and a React + TypeScript frontend.
+              </p>
+              <div class="tags">
+                <span class="tag">Rust</span><span class="tag">Solana</span><span class="tag">React</span><span class="tag">TypeScript</span>
+              </div>
+            </div>
 
-          <div class="subheading mb-1">Programming Languages</div>
-          <div class="subheadig mb-2">Python, Typescript, Rust</div>
+            <div class="item">
+              <h3>Software Engineer I · EagleView (Bengaluru, India)</h3>
+              <div class="meta">Mar 2021 – Apr 2022</div>
+              <p>
+                Improved ML workflows, built data generation pipelines, and automated alignment for solar report creation — reducing manual workload by ~80%.
+              </p>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">PyTorch</span><span class="tag">Computer Vision</span>
+              </div>
+            </div>
 
-          <div class="subheading mb-1">Data Science</div>
-          <div class="subheadig mb-2">PyTorch, NumPy, Pandas, OpenCV</div>
+            <div class="item">
+              <h3>AI Engineer · Learngram Technology India (Bengaluru, India)</h3>
+              <div class="meta">Apr 2020 – Mar 2021</div>
+              <p>
+                Worked on NLP and shipped a file management system (OneDrive‑like) for internal product workflows.
+              </p>
+              <div class="tags">
+                <span class="tag">NLP</span><span class="tag">Backend</span><span class="tag">Systems</span>
+              </div>
+            </div>
 
-          <div class="subheading mb-1">Cloud services</div>
-          <div class="subheadig mb-2">
-            Google Cloud Platform (Cloud SQL, Storage, Compute Engine), AWS
-            (EC2, S3), Firebase
+            <div class="item">
+              <h3>Research Assistant · NTU (Singapore)</h3>
+              <div class="meta">May 2019 – Dec 2019</div>
+              <p>
+                Researched automated open‑source vulnerability detection in binaries using ML + filtering techniques; explored hashing and subgraph isomorphism.
+              </p>
+              <div class="tags">
+                <span class="tag">Security</span><span class="tag">ML</span><span class="tag">Research</span>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
 
-          <div class="subheading mb-1">Deployment</div>
-          <div class="subheadig mb-2">
-            Vercel, Docker, Github Actions, Jenkins
+      <section class="section" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-sub">Tools I reach for most often.</p>
+
+          <div class="grid-2">
+            <div class="item">
+              <h3>Programming</h3>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Rust</span>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Data & ML</h3>
+              <div class="tags">
+                <span class="tag">PyTorch</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">OpenCV</span>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Cloud</h3>
+              <div class="tags">
+                <span class="tag">GCP (Cloud SQL/Storage/Compute)</span>
+                <span class="tag">AWS (EC2/S3)</span>
+                <span class="tag">Firebase</span>
+              </div>
+            </div>
+            <div class="item">
+              <h3>Deployment</h3>
+              <div class="tags">
+                <span class="tag">Docker</span>
+                <span class="tag">GitHub Actions</span>
+                <span class="tag">Jenkins</span>
+                <span class="tag">Vercel</span>
+              </div>
+            </div>
           </div>
-
-          <!-- <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-            <i class="fab fa-python"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li>
-        </ul> -->
-
-          <!-- <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul> -->
         </div>
       </section>
 
-      <hr class="m-0" />
+      <section class="section" id="awards">
+        <div class="container">
+          <h2 class="section-title">Awards</h2>
 
-      <section
-        class="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="interests"
-      >
-        <div class="w-100">
-          <h2 class="mb-5">Interests</h2>
-          <p>Full Stack Development, Software Design, and Algorithms</p>
+          <div class="grid-2">
+            <div class="item">
+              <h3>Above and Beyond Award (2021)</h3>
+              <div class="meta">EagleView</div>
+              <p>Recognized for contribution to the organization.</p>
+            </div>
+            <div class="item">
+              <h3>Technical Excellence Award (2018–2019)</h3>
+              <div class="meta">IIT Goa</div>
+              <p>Built an internship application management portal for the university.</p>
+            </div>
+            <div class="item">
+              <h3>JEE Advanced AIR 3120 (2016)</h3>
+              <div class="meta">Among ~1.2M candidates</div>
+              <p>National ranking achievement.</p>
+            </div>
+
+            <div class="item">
+              <h3>Education</h3>
+              <div class="meta">IIT Goa · B.Tech Computer Science (2016–2020)</div>
+              <p>GPA: 9.22 / 10.0</p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <hr class="m-0" />
+      <section class="section" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-sub">Best way to reach me is email. I usually reply within a day.</p>
 
-      <section
-        class="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="awards"
-      >
-        <div class="w-100">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <b>Received Above and Beyond Award - 2021</b> based on my
-              contribution to the organisation, <b>EagleView</b>
-            </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <b>Technical Excellence Award 2018-2019</b> for creating an
-              internship application management portal for the university,
-              <b>IIT Goa</b>
-            </li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <b>All India Rank 3120, JEE Advanced 2016</b> among 1.2 million
-              candidates
-            </li>
-
-            <!-- <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li> -->
-          </ul>
+          <div class="grid-2">
+            <div class="item">
+              <h3>Email</h3>
+              <p>
+                <a href="mailto:shivam7@outlook.in">shivam7@outlook.in</a>
+              </p>
+            </div>
+            <div class="item">
+              <h3>Elsewhere</h3>
+              <p>
+                <a href="https://github.com/shivamiitgoa" target="_blank" rel="noreferrer">GitHub</a>
+                ·
+                <a href="https://www.linkedin.com/in/shivamkumar7/" target="_blank" rel="noreferrer">LinkedIn</a>
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-    </div>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <footer class="footer">
+        <div class="container footer-inner">
+          <div>© <span id="y"></span> Shivam Kumar · Built for GitHub Pages</div>
+          <div class="small-links">
+            <a href="#top">Back to top</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </main>
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+    <script src="js/site.js" defer></script>
+    <script>
+      document.getElementById('y').textContent = String(new Date().getFullYear());
+    </script>
   </body>
 </html>
